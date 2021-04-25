@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -7,12 +12,32 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 90px;
+}
+
+@keyframes titilar {
+
+    100%,
+    0% {}
+
+    50% {
+        color: rgb(199, 236, 74);
+        box-shadow: rgb(199, 236, 74) 0px 0px 13px 12px;
+    }
 }
 
 .prendido {
-    background-color: yellow;
+    background-color: rgb(247, 247, 242);
+    color: greenyellow;
+    box-shadow: rgb(199, 236, 74) 0px 0px 13px 8px;
+    z-index: 10;
+    animation: titilar 100ms infinite linear;
 }
 
 .apagado {
-    background-color: red;
+    background-color: #57b53f6b;
+    color: gray;
 }
