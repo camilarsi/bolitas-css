@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+
+}
+
+.bolita {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.prendido {
+    background-color: yellow;
+}
+
+.apagado {
+    background-color: red;
+}
