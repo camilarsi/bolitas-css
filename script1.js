@@ -23,7 +23,7 @@ let bolitas = document.querySelectorAll(".bolita");
 
 for (let index = 0; index < bolitas.length; index++) {
     const bolita = bolitas[index];
-    bolita.addEventListener("click", function () {
+    bolita.addEventListener("mouseover", function () {
         conmutar(bolita);
     });
     console.log("Escuchando");
