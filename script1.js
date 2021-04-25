@@ -28,3 +28,14 @@ for (let index = 0; index < bolitas.length; index++) {
     });
     console.log("Escuchando");
 }
+
+let especial = document.getElementById("especial");
+especial.addEventListener("click", apagarTodas);
+
+function apagarTodas() {
+    for (let index = 0; index < bolitas.length; index++) {
+        const element = bolitas[index];
+        apagarFoco(element);
+
+    }
+}
